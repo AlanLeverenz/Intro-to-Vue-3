@@ -13,6 +13,11 @@ const app = Vue.createapp({
     data() {
         return {
             product: 'Socks'
+            description: 'So warm and fuzzy'
         }
     }
 })
+
+#### index.html
+
+the product and description properties are inserted into the DOM
