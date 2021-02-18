@@ -1,10 +1,6 @@
 const app = Vue.createApp({
     data() {
         return {
-<<<<<<< HEAD
-            product: 'Socks',
-            description: 'So warm, great for winter'
-=======
             cart:0,
             product: 'Socks',
             brand: 'Vue Mastery',
@@ -23,7 +19,6 @@ const app = Vue.createApp({
         },
         updateImage(variantImage) {
             this.image = variantImage
->>>>>>> L7-start
         }
     }
 })
