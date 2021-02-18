@@ -1,0 +1,24 @@
+// solution
+app.component('product-details', {
+    props: {
+      details: {
+        type: Array,
+        required: true
+      }
+    },
+    // WHY ARE DETAILS IN DISPLAY AND NOT DETAILS COMPONENT?
+    // data() {
+    //     return {
+    //         details: ['50% cotton', '30% wool', '20% polyester'],
+    //     }
+    // },
+    template:
+    /*html*/
+    `
+    <ul>
+      <li v-for="detail in details">{{ detail }}</li>
+    </ul>
+    `
+  })
+  // solution
+  
